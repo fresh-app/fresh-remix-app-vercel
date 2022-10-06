@@ -1032,29 +1032,22 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@edge-runtime/format@^1.1.0-beta.32":
+"@edge-runtime/format@1.1.0-beta.33":
   version "1.1.0-beta.33"
   resolved "https://registry.yarnpkg.com/@edge-runtime/format/-/format-1.1.0-beta.33.tgz#bfba333b47167b0deb09b3df0d5e60d8c72d7c62"
   integrity sha512-t34oTdZOqYSiguCGnt9GYzh9mrnhCHNRPGDvxt5PB5T3LZpSVk+vfSXRqpvTxy51sxQpxvTZry8QLC+E+Fm67w==
 
-"@edge-runtime/primitives@^1.1.0-beta.32", "@edge-runtime/primitives@^1.1.0-beta.36":
+"@edge-runtime/primitives@1.1.0-beta.36":
   version "1.1.0-beta.36"
   resolved "https://registry.yarnpkg.com/@edge-runtime/primitives/-/primitives-1.1.0-beta.36.tgz#f6e8d7971d515d03fcb2ec59e8cb65564fe80440"
   integrity sha512-Tji7SGWmn1+JGSnzFtWUoS7+kODIFprTyIAw0EBOVWEQKWfs7r0aTEm1XkJR0+d1jP9f0GB5LBKG/Z7KFyhx7g==
 
-"@edge-runtime/vm@1.1.0-beta.32":
-  version "1.1.0-beta.32"
-  resolved "https://registry.yarnpkg.com/@edge-runtime/vm/-/vm-1.1.0-beta.32.tgz#1bc9c77a88343478d50009f30813b9fbf8a0f4ad"
-  integrity sha512-G0SH80am2XjlK6oFI3RoKlg1SBS5ZAeqakYasfNhJEXqM7g7tsoh5jURMQcNxpLvo48XBTgHgAVEMzhAGgDPZg==
+"@edge-runtime/vm@1.1.0-beta.36":
+  version "1.1.0-beta.36"
+  resolved "https://registry.yarnpkg.com/@edge-runtime/vm/-/vm-1.1.0-beta.36.tgz#c5bd6d3823ec252f15fb97c5f65e94084100800c"
+  integrity sha512-uPZmL7X+lKBFJsTg8nC0qPDBx4JGgpRqlgJi2s77g2NOtqitQOI90BfIKHZSSoMQEwTqfvAkpu2ui8nazOwHxA==
   dependencies:
-    "@edge-runtime/primitives" "^1.1.0-beta.32"
-
-"@edge-runtime/vm@^1.1.0-beta.32":
-  version "1.1.0-beta.35"
-  resolved "https://registry.yarnpkg.com/@edge-runtime/vm/-/vm-1.1.0-beta.35.tgz#12c919180f294882b6d305360f530b6c319cb656"
-  integrity sha512-1LKPWHtVsYyY2AAdHb08fk4LKRqHsenZbIBOZYlZnPSXdos1NEhQYEc9YlALyo1ogREkRWJO+ExLDxZrCzO03A==
-  dependencies:
-    "@edge-runtime/primitives" "^1.1.0-beta.36"
+    "@edge-runtime/primitives" "1.1.0-beta.36"
 
 "@esbuild-plugins/node-modules-polyfill@^0.1.4":
   version "0.1.4"
@@ -1662,10 +1655,10 @@
     "@typescript-eslint/types" "5.39.0"
     eslint-visitor-keys "^3.3.0"
 
-"@vercel/build-utils@5.5.3":
-  version "5.5.3"
-  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-5.5.3.tgz#cee00400dbdec0081ca2e6ce011480333c0a39bf"
-  integrity sha512-T4MYD87rwocybIQzv4giRFYiisQqFLZOsPXn5tglQfnsB0DJM47l8VW9oFgGX2cJyp/px7C/ovdLrhwY/XWhYQ==
+"@vercel/build-utils@5.5.4":
+  version "5.5.4"
+  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-5.5.4.tgz#e6204fc579df786cffd22d95ea8bfec5ec4ca327"
+  integrity sha512-urAVFyrH6NTznN8bG1S4KHMpMwEaRXMRMeUXuMZXdGiznB83pACZ/5xpSzaLTIKrOrdYWVUrGcFjhLDMVRqCWQ==
 
 "@vercel/node-bridge@3.0.0":
   version "3.0.0"
@@ -1673,16 +1666,16 @@
   integrity sha512-TNQK6cufwrhd8ASDk5YHHenH8Xhp9sY8xUjOTKnQQI37KLk+Sw2HlHhT5rzUFN23ahosUlkY8InwtYUmSNb9kw==
 
 "@vercel/node@^2.4.4":
-  version "2.5.21"
-  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-2.5.21.tgz#479b939ba2c6c71d07288563062fa54e6b43595a"
-  integrity sha512-sJajTZYCDl4euWHuOgL5xzR7eLyi5Xv58j/QgI0tkOhMrREpqW9Jv2K2eSRDDuPDMbUgqqK14LodHApLlenizA==
+  version "2.5.22"
+  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-2.5.22.tgz#48422f7dd78468adb753e5755a42506c300b7809"
+  integrity sha512-phlgW4qHGEt/yQ/nbGCd3vrFM0n48/MBbvmAKgTeVE/mjzdWxPnuSHNQlaipJkzfT3tv8kiiJu9ZoicuDoACTw==
   dependencies:
-    "@edge-runtime/vm" "1.1.0-beta.32"
+    "@edge-runtime/vm" "1.1.0-beta.36"
     "@types/node" "*"
-    "@vercel/build-utils" "5.5.3"
+    "@vercel/build-utils" "5.5.4"
     "@vercel/node-bridge" "3.0.0"
     "@vercel/static-config" "2.0.3"
-    edge-runtime "1.1.0-beta.32"
+    edge-runtime "1.1.0-beta.37"
     esbuild "0.14.47"
     exit-hook "2.2.1"
     node-fetch "2.6.7"
@@ -2195,9 +2188,9 @@ callsites@^3.0.0:
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
 
 caniuse-lite@^1.0.30001400:
-  version "1.0.30001415"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001415.tgz#fd7ea96e9e94c181a7f56e7571efb43d92b860cc"
-  integrity sha512-ER+PfgCJUe8BqunLGWd/1EY4g8AzQcsDAVzdtMGKVtQEmKAwaFfU6vb7EAVIqTMYsqxBorYZi2+22Iouj/y7GQ==
+  version "1.0.30001416"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001416.tgz#29692af8a6a11412f2d3cf9a59d588fcdd21ce4c"
+  integrity sha512-06wzzdAkCPZO+Qm4e/eNghZBDfVNDsCgw33T27OwBH9unE9S478OYw//Q2L7Npf/zBzs7rjZOszIFQkwQKAEqA==
 
 chalk@^2.0.0:
   version "2.4.2"
@@ -2662,15 +2655,15 @@ duplexify@^3.5.0, duplexify@^3.6.0:
     readable-stream "^2.0.0"
     stream-shift "^1.0.0"
 
-edge-runtime@1.1.0-beta.32:
-  version "1.1.0-beta.32"
-  resolved "https://registry.yarnpkg.com/edge-runtime/-/edge-runtime-1.1.0-beta.32.tgz#e43fd53c57fdba3c567b3fef50743cba00ff5e49"
-  integrity sha512-fbqqUF3OKynqtWgExhjyxXX2SwbkWuwmjUYhml3Sv8Y/vkrTxyTKrxS0MoxUy5sGPB3BBEtpopn36cQgwlOpAg==
+edge-runtime@1.1.0-beta.37:
+  version "1.1.0-beta.37"
+  resolved "https://registry.yarnpkg.com/edge-runtime/-/edge-runtime-1.1.0-beta.37.tgz#e88eafba4f3630990468bb53efca6f48d76063c4"
+  integrity sha512-IP0xYNmp0XXoXVnrAf/e67224ZkMUUBMyUUohVxWWI5XdyetIGRNWp3GifDy3LpbuE02yv42rgtoE+tm+whcLA==
   dependencies:
-    "@edge-runtime/format" "^1.1.0-beta.32"
-    "@edge-runtime/vm" "^1.1.0-beta.32"
+    "@edge-runtime/format" "1.1.0-beta.33"
+    "@edge-runtime/vm" "1.1.0-beta.36"
     exit-hook "2.2.1"
-    http-status "1.5.2"
+    http-status "1.5.3"
     mri "1.2.0"
     picocolors "1.0.0"
     pretty-bytes "5.6.0"
@@ -2683,9 +2676,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.251:
-  version "1.4.271"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.271.tgz#2d9f04f6a53c70e1bb1acfaae9c39f07ca40d290"
-  integrity sha512-BCPBtK07xR1/uY2HFDtl3wK2De66AW4MSiPlLrnPNxKC/Qhccxd59W73654S3y6Rb/k3hmuGJOBnhjfoutetXA==
+  version "1.4.273"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.273.tgz#2a0276553172874617665807a40bea95711c2b9f"
+  integrity sha512-iEx72lv4P85PJ8HA9KEAss4o6ESK+hcxzM1cksZDo0H8KekaI+cloQyxOCASmHQO9ogmGyEELtBzxqqdeNwIgQ==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -3992,10 +3985,10 @@ http-errors@2.0.0:
     statuses "2.0.1"
     toidentifier "1.0.1"
 
-http-status@1.5.2:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/http-status/-/http-status-1.5.2.tgz#22e6ea67b4b5e2a366f49cb1759dc5479cad2fd6"
-  integrity sha512-HzxX+/hV/8US1Gq4V6R6PgUmJ5Pt/DGATs4QhdEOpG8LrdS9/3UG2nnOvkqUpRks04yjVtV5p/NODjO+wvf6vg==
+http-status@1.5.3:
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/http-status/-/http-status-1.5.3.tgz#9d1f6adcd1a609f535679f6e1b82811b96c3306e"
+  integrity sha512-jCClqdnnwigYslmtfb28vPplOgoiZ0siP2Z8C5Ua+3UKbx410v+c+jT+jh1bbI4TvcEySuX0vd/CfFZFbDkJeQ==
 
 http2-wrapper@^1.0.0-beta.5.2:
   version "1.0.3"
@@ -6941,9 +6934,9 @@ unset-value@^1.0.0:
     isobject "^3.0.0"
 
 update-browserslist-db@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/update-browserslist-db/-/update-browserslist-db-1.0.9.tgz#2924d3927367a38d5c555413a7ce138fc95fcb18"
-  integrity sha512-/xsqn21EGVdXI3EXSum1Yckj3ZVZugqyOZQ/CxYPBD/R+ko9NSUScf8tFF4dOKY+2pvSSJA/S+5B8s4Zr4kyvg==
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/update-browserslist-db/-/update-browserslist-db-1.0.10.tgz#0f54b876545726f17d00cd9a2561e6dade943ff3"
+  integrity sha512-OztqDenkfFkbSG+tRxBeAnCVPckDBcvibKd35yDONx6OU8N7sqgwc7rCbkJ/WcYtVRZ4ba68d6byhC21GFh7sQ==
   dependencies:
     escalade "^3.1.1"
     picocolors "^1.0.0"
