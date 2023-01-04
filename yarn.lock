@@ -1788,10 +1788,10 @@
     "@typescript-eslint/types" "5.48.0"
     eslint-visitor-keys "^3.3.0"
 
-"@vercel/build-utils@5.7.2":
-  version "5.7.2"
-  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-5.7.2.tgz#d71d7b80537a8e45d6e5bd63c2b5aa94723c9031"
-  integrity sha512-4ac8nRGlBzXtl7uJi4qRdfDiE+tVh4I17NIxGV6KmV2DzVAdzeaemBhukBgy1T7e7W40zvLMvlH0kgAK2EmQOQ==
+"@vercel/build-utils@5.7.3":
+  version "5.7.3"
+  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-5.7.3.tgz#3fbe98f0d22686e1cbcd75cddea249657452436e"
+  integrity sha512-Q4Ei4oG+tx4OnENHqqRlfAks6Rp3U/viOTUITnWpLgoej2xQUnnfk16qvHYZeE1ZGpblPoeDwD8ZWsxOkt3wHA==
 
 "@vercel/node-bridge@3.1.2":
   version "3.1.2"
@@ -1799,13 +1799,13 @@
   integrity sha512-dgcLXug0IqUeRsywf0G8IrhUFcgw+GYj+EZB4JneglKSofFBh3Xy/t7KfBUxLlKnoq6kyGYJvTmAVB1YBt11qw==
 
 "@vercel/node@^2.6.2":
-  version "2.8.2"
-  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-2.8.2.tgz#95c196b585da62ebcffb84b0ec84415c986ee40d"
-  integrity sha512-quZzNkn3MhOJ/Z5ugOgmLUXXWq/AMqXsByJPHte/TgnLM+skSpLaOYsB3rT2VUYbx9u3+T6bXQWv8YqJsgjZIQ==
+  version "2.8.3"
+  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-2.8.3.tgz#6d1163318106b86f07417af286c7b2709852c3b5"
+  integrity sha512-LSVt+PzY8o05zvZQL/A6IhC1TT9W09YGAZrFEE7BpcSJarM+SuoRzcOw5HRSLN4Ij2T0RPYSZuM4OdY3oxLzkQ==
   dependencies:
     "@edge-runtime/vm" "2.0.0"
     "@types/node" "14.18.33"
-    "@vercel/build-utils" "5.7.2"
+    "@vercel/build-utils" "5.7.3"
     "@vercel/node-bridge" "3.1.2"
     "@vercel/static-config" "2.0.6"
     edge-runtime "2.0.0"
@@ -3464,9 +3464,9 @@ estree-walker@^2.0.1:
   integrity sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==
 
 estree-walker@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-3.0.1.tgz#c2a9fb4a30232f5039b7c030b37ead691932debd"
-  integrity sha512-woY0RUD87WzMBUiZLx8NsYr23N5BKsOMZHhu2hoNRVh6NXGfoiT1KOL8G3UHlJAnEDGmfa5ubNA/AacfG+Kb0g==
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-3.0.2.tgz#2d17ff18067683aaf97aed83fe0d300603db9b67"
+  integrity sha512-C03BvXCQIH/po+PNPONx/zSM9ziPr9weX8xNhYb/IJtdJ9z+L4z9VKPTB+UTHdmhnIopA2kc419ueyVyHVktwA==
 
 esutils@^2.0.2:
   version "2.0.3"
@@ -4535,9 +4535,9 @@ is-plain-object@^2.0.3, is-plain-object@^2.0.4:
     isobject "^3.0.1"
 
 is-reference@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/is-reference/-/is-reference-3.0.0.tgz#b1380c03d96ddf7089709781e3208fceb0c92cd6"
-  integrity sha512-Eo1W3wUoHWoCoVM4GVl/a+K0IgiqE5aIo4kJABFyMum1ZORlPkC+UC357sSQUL5w5QCE5kCC9upl75b7+7CY/Q==
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/is-reference/-/is-reference-3.0.1.tgz#d400f4260f7e55733955e60d361d827eb4d3b831"
+  integrity sha512-baJJdQLiYaJdvFbJqXrcGv3WU3QCzBlUcI5QhbesIm6/xPsvmO+2CDoi/GMOFBQEQm+PXkwOPrp9KK5ozZsp2w==
   dependencies:
     "@types/estree" "*"
 
